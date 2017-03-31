@@ -1,3 +1,7 @@
+*{
+    font-family : 'Raleway', sans-serif;
+}
+
 .header {
     height:400px;
     background-position: center center;
@@ -7,6 +11,7 @@
     text-align:center;
     padding:90px;
 }
+
 .moon{
     font-family:'Raleway', sans-serif;
     font-size:40px;
@@ -14,6 +19,49 @@
     
 }
 
+
+.all_list{
+    position: center;
+    margin :0 auto;
+    width: 60%;
+    list-style: none ;
+    
+}
+#name{
+    font-weight: bold;
+}
+
+li{
+    margin:30px;
+}
+
+.movie_list{
+    list-style: square;
+}
+
+.smt{
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-color: #E8811A ;
+    text-align: left;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size:30px;
+    
+}
+p{
+    color: #444444;
+}
+
+img{
+    width: 100%;
+    position: relative;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
